@@ -1,0 +1,27 @@
+{
+  "name": "parcel-v2",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Sebastian Bernhardtz",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel serve ./src/index.html",
+    "build-prod": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "jquery": "^3.6.0",
+    "parcel": "^2.0.0-rc.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "prettier": "^2.3.2"
+  },
+  "private": true
+}

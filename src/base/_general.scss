@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-rows: 100vh;
+  background: $dark;
+  color: $info;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.img-box {
+  width: 20rem;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-align: center;
+}
